@@ -1,0 +1,34 @@
+package smartsofts.applicatif.usersmanagement;
+
+import java.util.UUID;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import smartsofts.applicatif.usersmanagement.dao.User;
+import smartsofts.applicatif.usersmanagement.dao.UserRepository;
+
+@SpringBootApplication
+public class UsersManagementApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UsersManagementApplication.class, args);
+	}
+    
+	@Bean
+	CommandLineRunner commandLineRunner(UserRepository userRepository) {
+		return args -> {
+			userRepository.save(User.builder()
+					.id(UUID.randomUUID()).name("Elkanoun Mohamed").email("med.elkanoun@gmail.com").build()
+		
+					);
+			        
+		};
+		
+	}
+	
+	
+
+}

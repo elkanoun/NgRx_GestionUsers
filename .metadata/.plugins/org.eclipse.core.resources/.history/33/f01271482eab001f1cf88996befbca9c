@@ -1,0 +1,23 @@
+package smartsofts.applicatif.usersmanagement.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import lombok.extern.slf4j.Slf4j;
+import smartsofts.applicatif.usersmanagement.dao.UserDTO;
+
+@Service
+@Slf4j
+public class MetierUsersImp implements IMetierUsers {
+    
+	//method listUsers
+	@Override
+    @Transactional(readOnly = true)
+	public List<UserDTO> listUsers() {
+		
+		return null;
+	}
+
+}

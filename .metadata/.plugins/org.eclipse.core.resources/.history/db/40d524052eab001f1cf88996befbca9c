@@ -1,0 +1,12 @@
+package smartsofts.applicatif.usersmanagement.service;
+
+import java.util.List;
+
+import smartsofts.applicatif.usersmanagement.dao.UserDTO;
+
+
+public interface IMetierUsers {
+	
+	List<UserDTO> listUsers();
+
+}

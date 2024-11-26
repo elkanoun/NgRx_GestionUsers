@@ -1,0 +1,16 @@
+package smartsofts.applicatif.usersmanagement.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import lombok.extern.slf4j.Slf4j;
+import smartsofts.applicatif.usersmanagement.dao.UserDTO;
+
+@Service
+@Slf4j
+public interface IMetierUsers {
+	
+	List<UserDTO> listUsers();
+
+}

@@ -1,0 +1,5 @@
+package smartsofts.applicatif.usersmanagement.dao;
+
+public class UserDTO {
+
+}

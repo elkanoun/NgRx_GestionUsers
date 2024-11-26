@@ -1,0 +1,5 @@
+package smartsofts.applicatif.usersmanagement.service;
+
+public interface IMetierUsers {
+
+}

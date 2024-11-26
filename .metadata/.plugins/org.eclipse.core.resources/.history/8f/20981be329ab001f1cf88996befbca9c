@@ -1,0 +1,39 @@
+package smartsofts.applicatif.usersmanagement;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UsersManagementApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UsersManagementApplication.class, args);
+	}
+    
+	/*
+	@Bean
+	CommandLineRunner commandLineRunner(UserRepository userRepository) {
+		return args -> {
+			userRepository.save(User.builder()
+					.id(1L).name("Elkanoun").email("elkanoun@gmail.com").build()
+		
+					);
+			userRepository.save(User.builder()
+					.id(2L).name("Ghyami").email("ghyami@gmail.com").build()
+		
+					);
+			userRepository.save(User.builder()
+					.id(3L).name("Aboudi").email("Aboudi@gmail.com").build()
+		
+					);
+			        
+		};
+		
+	}
+	*/
+	
+	
+	
+	
+
+}

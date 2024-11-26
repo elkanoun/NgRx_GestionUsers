@@ -1,0 +1,24 @@
+package smartsofts.applicatif.usersmanagement.web;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import smartsofts.applicatif.usersmanagement.dao.User;
+import smartsofts.applicatif.usersmanagement.service.IMetierUsers;
+
+@RestController
+@CrossOrigin("*")
+public class UsersRestController {
+	@Autowired
+	IMetierUsers iMetierUsers;
+	
+	@GetMapping("/students")
+	List<User> listUsers(){
+		return iMetierUsers.listUsers();
+	}
+
+}

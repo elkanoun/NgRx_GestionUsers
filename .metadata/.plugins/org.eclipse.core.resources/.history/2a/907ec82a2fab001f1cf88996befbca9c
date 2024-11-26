@@ -1,0 +1,6 @@
+package smartsofts.applicatif.usersmanagement.web;
+
+
+public interface IUsersRestController {
+
+}
