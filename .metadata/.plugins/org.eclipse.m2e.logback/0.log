@@ -1137,3 +1137,24 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-25 16:09:27,717 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: smartsofts.applicatif:UsersManagement:0.0.1-SNAPSHOT @ C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\pom.xml.
+2024-11-25 16:09:28,314 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-25 16:09:28,316 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-25 16:09:28,320 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\src\test\resources
+2024-11-25 16:09:29,534 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-25 16:09:29,548 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-25 16:09:29,550 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\src\test\resources
+2024-11-25 16:09:37,582 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-25 16:09:37,586 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-25 16:09:37,588 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\src\test\resources
+2024-11-25 16:09:54,817 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-25 16:09:55,019 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: smartsofts.applicatif:UsersManagement:0.0.1-SNAPSHOT @ C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\pom.xml.
+2024-11-25 16:09:55,471 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UsersManagement/src/main/java
+2024-11-25 16:09:55,471 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UsersManagement/src/main/resources
+2024-11-25 16:09:55,472 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UsersManagement/src/main/resources
+2024-11-25 16:09:55,472 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UsersManagement/src/test/java
+2024-11-25 16:09:55,472 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UsersManagement/src/test/resources
+2024-11-25 16:09:55,804 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-11-25 16:09:56,124 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-25 16:09:56,135 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-25 16:09:56,138 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\SpaceDeveloppement\Entretiens_2024\AngularG\AngularG_gpt js\NgRx_GestionUsers\UsersManagement\src\test\resources
